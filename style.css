@@ -1,3 +1,10 @@
 * {
-    background-color: purple;
+    background-color: bisque;
+}
+
+#caixaDoModeloBox {
+    border: solid black 2px;
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
 }
