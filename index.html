@@ -10,26 +10,45 @@
     <body>
         <nav>
             <a href="#boxModel">Box Model</a>
-            <a href="#block-inline">Contato</a>
             <a href="#block">Block</a>
         </nav>
 
         <main>
-            <section id="home">
+            <section id="name">
                 <h1>Site de testes</h1>
                 <p>Com meu progresso no estudo da tecnologia da programação e suas linguagems usarei este site como um repositório do meu conhecimento, com o objetivo de demonstrar o progresso gradual das minhas habilidades.</p>
             </section>
             <section id="boxModel">
                 <h2>Demonstrando o modelo box model</h2>
-                <pre id="caixaDoModeloBox">
-                    #caixaDoModeloBox { <br>
-                        border: solid black 2px; <br>
-                        }
-                    </pre>
+                <code id="boxFromBoxModel">
+                        <span id="atributeColor">#caixaDoModeloBox</span> { <br>
+                            border: solid black 2px; <br>
+                            }
+                </code>
             </section>
             <section id="block-inline">
                 <h3> Comportamentos de display</h3>
-                <p>Existem dois comportamentos de display e cada um se relaciona com algum atributo, sendo eles: </p>
+                <h4>Bloco</h4>
+                <p>
+                    Existem dois comportamentos de display, cada um com um padrão de comportamento sobre os atributos relacionados. <br>
+                    1 - O Display em bloco apresenta o conteudo do objeto em toda a linha, exatamente como um bloco <br>
+                    2 - Largura e altura podem ser aplicados <br>
+                    3 - Preenchimento, borda e margem tambem funcionam perfeitamente <br>
+                    <code>
+                        <div id="blockExemple">bloco</div>
+                    </code>
+                    <br>
+                    Por padrão ele adiciona em block os seguintes elementos: div, section, main, p e h1
+                </p>
+                <h4>Inline</h4>
+                <p>
+                    1 - Ocupa apenas o espaço do elemento.
+                    2 - Elementos poderão ficar em linha
+                    3 - Largura e altura <strong>não</strong> são aplicados
+                </p>
+                <span id="topicInline">Inline</span>
+                <span id="topicInline">Inline</span>
+                <span id="topicInline">Inline</span>
             </section>
         </main>
     </body>
